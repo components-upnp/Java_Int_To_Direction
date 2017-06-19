@@ -37,6 +37,7 @@ public class IntToConvertService {
         commandInt = c;
         LecteurXml l = new LecteurXml(commandInt);
 
+        System.out.println(commandInt);
         HashMap<String,String> args = new HashMap<>();
         args.put("UDN", l.getUdn());
         args.put("COMMANDE", l.getIntVal());

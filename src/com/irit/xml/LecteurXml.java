@@ -32,7 +32,7 @@ public class LecteurXml {
             public void startElement(String uri, String localName, String qName, Attributes attributes) {
                 if (qName.equalsIgnoreCase("UDN"))
                     isUdn = true;
-                if (qName.equalsIgnoreCase("INTVAL"))
+                if (qName.equalsIgnoreCase("Commande"))
                     isIntVal = true;
             }
 

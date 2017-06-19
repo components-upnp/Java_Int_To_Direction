@@ -52,6 +52,8 @@ public class IntToDirectionAdapterServer implements Runnable {
                         HashMap<String,String> args = (HashMap<String, String>) evt.getNewValue();
                         int val = Integer.parseInt(args.get("COMMANDE"));
 
+                        System.out.println(val);
+
                         String commande = "";
 
                         if (val < 50)

@@ -35,7 +35,7 @@ public class GenerateurXml {
         root.appendChild(nbQuestion);
         nbQuestion.appendChild(doc.createTextNode(args.get("UDN")));
 
-        Element command = doc.createElementNS(namespace, "COMMANDE");
+        Element command = doc.createElementNS(namespace, "Commande");
         root.appendChild(command);
         command.appendChild(doc.createTextNode(args.get("COMMANDE")));
 
